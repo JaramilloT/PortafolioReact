@@ -1,15 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Routes, Route } from 'react-router-dom'
 
-import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { Container } from './Container/Container'
+import { Header } from './Components/Layouts/Header/Header'
+import { Home } from './Components/Pages/Home/Home'
+
+import { Skills } from './Components/Pages/Skills/Skills'
 
 export const App = () => {
   return (
     <>
-    <Header/>
+       <Header />       
+          <Container>
+              <Routes>
+                  <Route path='/' element={<Home />} />
+                  <Route path='/Skills' element={<Skills />}/>
+              </Routes>
+          </Container>
     </>
   )
 }
