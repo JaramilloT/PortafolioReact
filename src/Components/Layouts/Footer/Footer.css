@@ -1,24 +1,17 @@
 footer {
-    background-color: #222; /* Fondo oscuro */
-    padding: 20px;
-    text-align: center;
-    background-color: #222;
-    
+    background-color: #8a8a8a; 
+    padding: 1px;
+    margin-top: 6rem;
+    border-radius: 10px;
+    stop-opacity: var(10px);
 }
-
-.main-content {
-    flex: 1; /* Empuja el footer hacia abajo */
-  }
 
 footer ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-}
-
-footer li {
-    display: inline;
+    margin-left: 2.5rem;
 }
 
 footer a {
