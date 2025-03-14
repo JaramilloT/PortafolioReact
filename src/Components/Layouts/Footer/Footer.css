@@ -1,0 +1,30 @@
+footer {
+    background-color: #222; /* Fondo oscuro */
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+    
+}
+
+.main-content {
+    flex: 1; /* Empuja el footer hacia abajo */
+  }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+

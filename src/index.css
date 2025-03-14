@@ -1,0 +1,9 @@
+body{
+    background-image: url('assets/Fono2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
