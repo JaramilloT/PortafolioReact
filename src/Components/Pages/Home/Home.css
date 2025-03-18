@@ -129,3 +129,23 @@ main{
     margin: 200px auto;
     -webkit-animation: box-animation 2s ease infinite alternate;
 }
+
+
+/* Media Query para teléfonos con dimensiones 394x352 */
+@media (max-width: 394px) and (max-height: 352px) {
+    .containerHome {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerAboutMe {
+        width: 90%; /* Asegura que el contenido no se salga */
+        margin-left: 0;
+        text-align: center; /* Centra el texto */
+    }
+
+    .containerCube {
+        height: 15rem; /* Reduce el tamaño en pantallas pequeñas */
+        width: 20rem;
+    }
+}
