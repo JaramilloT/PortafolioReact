@@ -35,9 +35,9 @@ export const Home = () => {
 </main>
   <div className='containerAboutMe'>
     <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Ipsam, adipisci,
-      nihil fugit libero obcaecati, placeat <br />nam iure qui earum repellendus suscipit 
-      maiores iusto accusamus veniam. <br />Cumque eum nam aperiam autem?
+    <p>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Ipsam, adipisci,
+      nihil fugit libero obcaecati, placeatnam iure qui earum repellendus suscipit 
+      maiores iusto accusamus veniam.Cumque eum nam aperiam autem?
     </p>
   </div>
 

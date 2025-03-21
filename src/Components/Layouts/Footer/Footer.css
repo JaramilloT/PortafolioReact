@@ -25,17 +25,3 @@ footer a {
 }
 
 /* Media Query para teléfonos con dimensiones 394x352 */
-@media (max-width: 394px) and (max-height: 352px) {
-    footer ul {
-        flex-direction: column; /* Pone los enlaces en columna si hay poco espacio */
-        margin-left: 0;
-    }
-
-    footer a {
-        font-size: 14px; /* Hace el texto más pequeño */
-    }
-
-    .containerFooter {
-        padding: 5px; /* Ajusta el espacio para que no ocupe mucho */
-    }
-}
