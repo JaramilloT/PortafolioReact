@@ -12,7 +12,7 @@ nav  {
 
 ul {
     display: flex;
-    list-style: none;
+    list-style: none;   
     margin-right: 2.5rem;
 }
 
