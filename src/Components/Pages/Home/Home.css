@@ -1,6 +1,5 @@
 main{
     width: 100%;
-    width: 100%;
 }
 
 .containerHome{
@@ -19,6 +18,14 @@ main{
 .containerCube{
     height: 20rem;
     width: 30rem;
+}
+
+h2{
+    color: #781d1d;
+}
+
+p{
+    color: black;
 }
 
 
@@ -140,7 +147,7 @@ main{
 
     .containerAboutMe {
         width: 50%; /* Asegura que el contenido no se salga */
-        margin-left: 14rem;
+        margin-left: 13.5rem;
         text-align: start;
         margin-top: -7rem;
     }
