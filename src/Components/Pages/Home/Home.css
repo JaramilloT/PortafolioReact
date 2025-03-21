@@ -149,11 +149,11 @@ p{
         width: 50%; /* Asegura que el contenido no se salga */
         margin-left: 13.5rem;
         text-align: start;
-        margin-top: -7rem;
+        margin-top: -13rem;
     }
 
     .containerCube {
-        height: 13rem; /* Reduce el tamaño en pantallas pequeñas */
+        height: 15rem; /* Reduce el tamaño en pantallas pequeñas */
         width: 20rem;
     }
 }
