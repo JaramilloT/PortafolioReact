@@ -153,7 +153,7 @@ p{
     }
 
     .containerCube {
-        height: 15rem; /* Reduce el tamaño en pantallas pequeñas */
+        height: 13rem; /* Reduce el tamaño en pantallas pequeñas */
         width: 20rem;
     }
 }
