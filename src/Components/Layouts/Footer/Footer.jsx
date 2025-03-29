@@ -10,7 +10,7 @@ export const Footer = () => {
         <ul>
           <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
           <li><a href="https://github.com/JaramilloT" target="_blank">GitHub</a></li>
-          <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="https://www.instagram.com/jara_tamayo/" target="_blank">Instagram</a></li>
         </ul>
       </div>
   </footer>
