@@ -1,7 +1,20 @@
-body{
+html,body{
     background-image: url('assets/5.jpg');
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed;
     font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal
+}
+
+:root{
+    width: 100vw;
+    height: 100vh;
 }
